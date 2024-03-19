@@ -135,6 +135,7 @@ def get_fighter(query):
     fighter = parse_sherdog_fighter(sherdog_link)
     fighter.update(get_ufc_stats(ufc_link))
     return fighter
+    
 
 
 def get_upcoming_event_links():
